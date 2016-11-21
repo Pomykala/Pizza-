@@ -54,12 +54,12 @@ toppingcost()
             return top.length*.50
         }
 price(){
-return this.sizecost() this.toppingcost()
+return this.sizecost() this.toppingcost("meat")this.toppingcost("veggie")
 
 }
 static.promotionalDeal(pizza,percent){
-return this.price()==this.sizecost()*5%
-
+return this.price()==this.price()*5%
+return totalcost
 }
 
 
